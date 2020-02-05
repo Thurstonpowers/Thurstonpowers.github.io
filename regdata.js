@@ -21,7 +21,7 @@
 
         var tableSchema = {
             id: "Regdata",
-            alias: "Regdata, restrictions",
+            alias: "Regdata, series values",
             columns: cols
         };
 
