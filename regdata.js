@@ -20,8 +20,8 @@
         }];
 
         var tableSchema = {
-            id: "Regdata",
-            alias: "Regdata, series values",
+            id: "RegCensus",
+            alias: "RegCensus, series values",
             columns: cols
         };
 
@@ -54,7 +54,7 @@
     // Create event listeners for when the user submits the form
     $(document).ready(function () {
         $("#submitButton").click(function () {
-            tableau.connectionName = "RegCensus Explorer";
+            tableau.connectionName = "RegCensus, series values";
             tableau.submit();
         });
     });
